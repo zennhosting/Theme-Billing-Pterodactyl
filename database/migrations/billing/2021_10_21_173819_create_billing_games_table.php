@@ -1,0 +1,36 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateBillingGamesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('billing_games', function (Blueprint $table) {
+            $table->id();
+
+            $table->string('label', 100);
+            $table->string('link', 100)->unique();
+            $table->string('icon', 100);
+            $table->integer('order')->default('0');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('billing_games');
+    }
+}

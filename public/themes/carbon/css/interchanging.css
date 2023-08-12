@@ -1,0 +1,121 @@
+/* Console  CSS*/
+
+
+.card-body, .alert-white.rounded, .navbar-search-light .input-group { 
+background: var(--second-background) !important; 
+}
+
+.card-text {
+color: var(--text-color) !important;
+}
+
+
+p, a {
+    color: var(--text-color) !important;
+}
+
+    /* Tool Tips Background */
+    .pointer-events-none {
+        background: var(--first-color) !important;
+        color: var(--active-text-color) !important;
+    }
+
+    /* Navbar Active Links and hover effect */
+    a.active, .jZPsWO > div > a:hover {
+        color: var(--active-text-color) !important;
+    }
+
+    /* Card SVGS */
+    .style-module_2Vp6MaXq > .style-module_1DtraXMW > svg {
+        color: var(--first-color) !important;
+    }
+
+    /* Text Labels */
+    .text-sm { 
+        color: var(--active-text-color) !important;
+    }
+
+    /* Kill Button Modal  */
+    .relative.bg-gray-600.rounded.max-w-xl.w-full.mx-auto.shadow-lg.text-left.ring-4.ring-gray-800.ring-opacity-80 {
+        background: var(--main-background) !important;
+    }
+
+    /* Text Color */
+    p, .text-gray-50 {
+        color: var(--text-color) !important;
+
+    }
+
+    /* Gray Buttons */
+    button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1, button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw- {
+        color: var(--active-text-color) !important;
+        background-color: var(--green) !important;
+    }
+
+    /* Schedules Gray Cards */
+    .lhtSTn, .fTWzzm, .cCQdBf, .jwfPOa, .efYmCH {
+        background: var(--second-background) !important;
+    }
+
+    /* Server Row Icon Styling */
+    .dZmsXR .icon {
+        background: transparent !important;
+        font-size: 25px;
+    }
+
+    button#logout {
+        color: var(--text-color) !important;
+    }
+
+    /* File Dropdown */
+    .eGcUMp:hover {
+        color: var(--first-color) !important
+    }
+
+    .clMvqX {
+        color: var(--first-color) !important;
+    }
+
+    .jLekZv {
+        color: var(--bs-red) !important;
+    }
+
+    /* Hide Topbar / Navbar */
+    .w-full.bg-neutral-900.shadow-md.overflow-x-auto, .jZPsWO {
+        display: none !important;
+    }
+
+    /* Set Console Container max-width */
+    .jyeSuy {
+        max-width: 1300px !important;
+    }
+
+    #app {
+        margin-top: 85px;
+    }
+
+    /* background for modals */
+    .style-module_1RnhIT0w {
+        background: var(--second-background) !important;
+    }
+
+    /* background for dropdown in backups */
+
+    .keedbc {
+        background: var(--second-background) !important;
+    }
+
+    /* give backups dropdown text color */
+    .eaXUyY {
+        color: var(--first-color) !important;
+    }
+
+    /* Add scroll on container for files page */
+    .jZPsWO {
+        overflow: scroll;
+    }
+
+    .iJemQy {
+        background: var(--first-color) !important;
+        color: white !important;
+    }

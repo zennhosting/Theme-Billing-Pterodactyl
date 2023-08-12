@@ -1,0 +1,58 @@
+/* Admin side custom CSS for Billing */
+
+.flex {
+    display: flex !important;
+}
+
+.center {
+    align-items: center !important;
+}
+
+.space-between {
+    justify-content: space-between !important;
+}
+
+.w-100 {
+    width: 100% !important;
+}
+
+.card-icon {
+    font-size: 52px;
+}
+
+.circle {
+    font-size: 30px;
+    width: 64px;
+    height: 64px;
+    background: #0975b7;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary {
+    background: linear-gradient(310deg,#5e72e4,#825ee4) !important;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.btn-card {
+background: #00000059 !important;
+border: none !important;
+}
+
+.card-small-icon {
+    width: 32px;
+    height: 32px; 
+    background: #00a65a; 
+    border-radius: 10px; 
+    color: white; 
+    margin-right: 7px
+}
+
+.primary-2 {
+    background: #5e72e4 !important; 
+}

@@ -1,0 +1,52 @@
+    /**<!---- primary Background colors  DEFAULT #1f1d2b --->**/
+
+    body {
+        background-color: var(--main-background) !important;
+    }
+    
+    .LoginFormContainer___StyledDiv-sc-cyh04c-3.cxOtYP {
+        background: #0000002b !important;
+    }
+
+    label.Label-sc-g780ms-0.YBQup, p, .ggwpO {
+        color: var(--text-color);
+    }
+
+    .gbsdSt:not([type="checkbox"]):not([type="radio"]), .HQtYP:not([type="checkbox"]):not([type="radio"]) {
+        background: var(--second-background) !important;
+        color: var(--active-text-color) !important;
+    }
+
+    .cjgCjC:hover, .oHdiU:hover {
+        color: var(--active-text-color) !important;
+    }
+
+    .bg-neutral-900 {
+        background-color: transparent !important;
+    }
+
+    .cxOtYP {
+        background-color: #0000002b !important;
+    }
+
+    .ggwpO, .dlUeSf {
+        color: var(--text-color) !important;
+    }
+
+    .iKtZRB {
+        display: none !important;
+    }
+
+    .kOFLMG {
+        margin-left: 24px;
+    }
+
+    .HQtYP:not([type="checkbox"]):not([type="radio"]), .hmhrLa:not([type="checkbox"]):not([type="radio"]) {
+        background-color: #00000026 !important;
+    }
+
+    /* Register Page */
+
+    .jbDTOK {
+        background-color: #0000002b !important;
+    }
